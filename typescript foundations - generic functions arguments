@@ -1,0 +1,3 @@
+const identity = <T>(v: T) => v;
+
+const mapArray = <T, R>(arr: T[], fn: (e: T) => R) => arr.map(fn);
