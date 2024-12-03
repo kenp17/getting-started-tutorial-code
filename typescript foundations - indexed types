@@ -1,0 +1,2 @@
+type TheCoolestCarEverMade = 'Toyota Corolla';
+type TruckDriverBonusGiver = 45_000_000;
