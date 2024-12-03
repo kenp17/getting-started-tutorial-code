@@ -1,0 +1,6 @@
+type ApiRequest<TData, TMethod = "GET"> = {
+	data: TData;
+	method: TMethod;
+}
+
+type TSConfig<T = { strict: true }> = T
